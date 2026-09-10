@@ -84,7 +84,9 @@ cliente, y automatizo atención al cliente sobre WhatsApp Cloud API con n8n y ag
         <a href="https://boviverourbano.vercel.app">
           <img src="https://img.shields.io/badge/En%20producci%C3%B3n-Live-success?logo=vercel&logoColor=white" alt="live"/>
         </a>
-        <img src="https://img.shields.io/badge/Repo-privado-lightgrey?logo=github&logoColor=white" alt="private"/>
+        <a href="https://github.com/carlosaurelio94/backoffice-vivero-urbano">
+          <img src="https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white" alt="code"/>
+        </a>
       </p>
       <p align="center">
         Backoffice multi-empresa con aislamiento de datos por <b>Row Level Security</b> en PostgreSQL,
