@@ -1,11 +1,11 @@
 <div align="center">
 
 <a href="https://carlos-aurelio-portfolio.vercel.app">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:8B5CF6,100:EC4899&height=200&section=header&text=Carlos%20Rodr%C3%ADguez&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%C2%B7%20Next.js%20%C2%B7%20TypeScript%20%C2%B7%20Supabase&descAlignY=60&descSize=16&animation=fadeIn" alt="header"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:8B5CF6,100:EC4899&height=200&section=header&text=Carlos%20Rodr%C3%ADguez&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Backend%20Engineer%20%C2%B7%20Java%20%C2%B7%20Spring%20Boot%20%C2%B7%20PostgreSQL&descAlignY=60&descSize=16&animation=fadeIn" alt="header"/>
 </a>
 
 <a href="https://github.com/carlosaurelio94">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=800&color=8B5CF6&center=true&vCenter=true&width=600&lines=Bienvenido+a+mi+GitHub+%F0%9F%91%8B;Construyo+productos+web+end-to-end;Next.js+%E2%80%A2+TypeScript+%E2%80%A2+Supabase+%E2%80%A2+Tailwind;Buscando+nuevas+oportunidades+%F0%9F%9A%80" alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=800&color=8B5CF6&center=true&vCenter=true&width=600&lines=Backend+Engineer+%E2%80%A2+Java+%E2%80%A2+Spring+Boot;3+years+running+~15+microservices+in+production;I+also+ship+complete+products+end-to-end;Open+to+remote+roles+%F0%9F%9A%80" alt="typing"/>
 </a>
 
 <br/>
@@ -20,19 +20,25 @@
 
 ## 🧑‍💻 Sobre mí
 
-```typescript
-const carlos = {
-  rol:        "Full Stack Developer",
-  ubicacion:  "🇦🇷 Argentina",
-  stack:      ["Next.js", "TypeScript", "Supabase", "PostgreSQL", "Tailwind"],
-  enfoque:    ["PWAs", "SaaS multi-tenant", "automatización con n8n"],
-  aprendiendo: ["IA aplicada", "WhatsApp Cloud API", "edge functions"],
-  buscando:   "💼 oportunidades full-time o freelance"
-};
+```java
+public class Carlos {
+    String  rol         = "Backend Engineer";
+    String  ubicacion   = "🇦🇷 Buenos Aires — UTC-3, solapa con horario de EE.UU.";
+    String  core        = "Java · Spring Boot · Spring Data JPA · PostgreSQL · Docker";
+    String  tambien     = "Next.js · TypeScript · Supabase · n8n";
+    String  aprendiendo = "Java 21 · Spring Boot 3 · Testcontainers · AWS";
+    String  buscando    = "💼 roles remotos, backend o full-stack";
+}
 ```
 
-Construyo productos web completos — del esquema en Supabase al deploy en Vercel —
-priorizando **mobile-first**, **performance** y **UX limpio**.
+Durante **3 años** mantuve y evolucioné la plataforma que soporta el e-commerce y la
+operación logística de un club privado de vinos: un **monolito Grails y ~15
+microservicios Spring Boot** sobre PostgreSQL, con cientos de socios activos. Ahí
+**reduje cerca de un 35% el tiempo de respuesta** de los endpoints críticos con
+caching, resolución de consultas N+1 e índices.
+
+Hoy desarrollo y comercializo un **SaaS multi-tenant en producción** con su primer
+cliente, y automatizo atención al cliente sobre WhatsApp Cloud API con n8n y agentes LLM.
 
 ---
 
@@ -40,27 +46,28 @@ priorizando **mobile-first**, **performance** y **UX limpio**.
 
 <div align="center">
 
-**Frontend**
+**Core — Backend**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Hibernate](https://img.shields.io/badge/JPA%20%2F%20Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+**Frontend & producto**
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-
-**Backend & DB**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
-**DevOps & Tools**
+**DevOps & automatización**
 
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 
 </div>
@@ -70,6 +77,24 @@ priorizando **mobile-first**, **performance** y **UX limpio**.
 ## 🚀 Proyectos destacados
 
 <table>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3 align="center">🌱 Backoffice Vivero Urbano — SaaS multi-tenant en producción</h3>
+      <p align="center">
+        <a href="https://boviverourbano.vercel.app">
+          <img src="https://img.shields.io/badge/En%20producci%C3%B3n-Live-success?logo=vercel&logoColor=white" alt="live"/>
+        </a>
+        <img src="https://img.shields.io/badge/Repo-privado-lightgrey?logo=github&logoColor=white" alt="private"/>
+      </p>
+      <p align="center">
+        Backoffice multi-empresa con aislamiento de datos por <b>Row Level Security</b> en PostgreSQL,
+        onboarding self-service, presupuestos en PDF y panel de administración cross-tenant.
+        Multi-tenant desde el día uno: costaba más al inicio que una instancia por cliente,
+        pero un retrofit contra datos productivos hubiera sido mucho peor.
+      </p>
+      <p align="center"><sub><b>Stack:</b> Next.js · TypeScript · Supabase · PostgreSQL · Spring Boot</sub></p>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">🥃 Licoreria Virtual</h3>
@@ -85,17 +110,17 @@ priorizando **mobile-first**, **performance** y **UX limpio**.
       <p><sub><b>Stack:</b> Next.js 16 · TypeScript · Tailwind</sub></p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🛒 E-commerce Demo</h3>
+      <h3 align="center">🏦 Homebanking</h3>
       <p align="center">
-        <a href="https://ecommerce-demo-three-taupe.vercel.app">
+        <a href="https://homebanking-zeta.vercel.app">
           <img src="https://img.shields.io/badge/Demo-Live-success?logo=vercel&logoColor=white" alt="live"/>
         </a>
-        <a href="https://github.com/carlosaurelio94/ecommerce-demo">
+        <a href="https://github.com/carlosaurelio94/homebanking">
           <img src="https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white" alt="code"/>
         </a>
       </p>
-      <p>Tienda online con carrito de compras e integración con MercadoPago.</p>
-      <p><sub><b>Stack:</b> HTML · JavaScript · MercadoPago SDK</sub></p>
+      <p>Home banking full-stack: autenticación JWT, transferencias, préstamos y persistencia con JPA.</p>
+      <p><sub><b>Stack:</b> Java · Spring Boot · JPA</sub></p>
     </td>
   </tr>
   <tr>
@@ -173,12 +198,20 @@ priorizando **mobile-first**, **performance** y **UX limpio**.
 
 <div align="center">
 
+<a href="https://www.linkedin.com/in/carlos-aurelio-rodriguez">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/>
+</a>
+<a href="mailto:carlosarc10@gmail.com">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/>
+</a>
 <a href="https://carlos-aurelio-portfolio.vercel.app">
   <img src="https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="portfolio"/>
 </a>
-<a href="https://github.com/carlosaurelio94">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="github"/>
-</a>
+
+<br/><br/>
+
+<b>Abierto a roles remotos como backend o full-stack.</b><br/>
+<sub>Buenos Aires, Argentina · UTC-3 · solapa con horario de EE.UU.</sub>
 
 <br/><br/>
 
