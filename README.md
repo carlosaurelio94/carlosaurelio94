@@ -114,12 +114,10 @@ cliente, y automatizo atención al cliente sobre WhatsApp Cloud API con n8n y ag
     <td width="50%" valign="top">
       <h3 align="center">🏦 Homebanking</h3>
       <p align="center">
-        <a href="https://homebanking-zeta.vercel.app">
-          <img src="https://img.shields.io/badge/Demo-Live-success?logo=vercel&logoColor=white" alt="live"/>
-        </a>
         <a href="https://github.com/carlosaurelio94/homebanking">
           <img src="https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white" alt="code"/>
         </a>
+        <img src="https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white" alt="java"/>
       </p>
       <p>Home banking full-stack: autenticación JWT, transferencias, préstamos y persistencia con JPA.</p>
       <p><sub><b>Stack:</b> Java · Spring Boot · JPA</sub></p>
@@ -140,17 +138,15 @@ cliente, y automatizo atención al cliente sobre WhatsApp Cloud API con n8n y ag
       <p><sub><b>Stack:</b> Next.js · TypeScript · Supabase</sub></p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">📄 Presupuestos Vivero</h3>
+      <h3 align="center">📊 Chartly</h3>
       <p align="center">
-        <a href="https://presupuestos-vivero-urbano.vercel.app">
-          <img src="https://img.shields.io/badge/Demo-Live-success?logo=vercel&logoColor=white" alt="live"/>
-        </a>
-        <a href="https://github.com/carlosaurelio94/presupuestos_vivero_urbano">
+        <a href="https://github.com/carlosaurelio94/chartly">
           <img src="https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white" alt="code"/>
         </a>
+        <img src="https://img.shields.io/badge/PWA-5A0FC8?logo=pwa&logoColor=white" alt="pwa"/>
       </p>
-      <p>Generador de PDF para presupuestos en producción.</p>
-      <p><sub><b>Stack:</b> JavaScript · pdf-lib</sub></p>
+      <p>PWA de finanzas y agenda con <b>notificaciones push al minuto</b>: el scheduler vive dentro de Postgres con pg_cron + pg_net.</p>
+      <p><sub><b>Stack:</b> Next.js · TypeScript · Supabase · pg_cron</sub></p>
     </td>
   </tr>
 </table>
