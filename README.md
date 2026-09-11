@@ -79,20 +79,23 @@ cliente, y automatizo atención al cliente sobre WhatsApp Cloud API con n8n y ag
 <table>
   <tr>
     <td colspan="2" valign="top">
-      <h3 align="center">🌱 Backoffice Vivero Urbano — SaaS multi-tenant en producción</h3>
+      <h3 align="center">🌱 Bocha — SaaS multiempresa de gestión comercial</h3>
       <p align="center">
         <a href="https://boviverourbano.vercel.app">
-          <img src="https://img.shields.io/badge/En%20producci%C3%B3n-requiere%20login-success?logo=vercel&logoColor=white" alt="live"/>
+          <img src="https://img.shields.io/badge/En%20producci%C3%B3n-Live-success?logo=vercel&logoColor=white" alt="live"/>
         </a>
         <a href="https://github.com/carlosaurelio94/backoffice-vivero-urbano">
           <img src="https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white" alt="code"/>
         </a>
       </p>
       <p align="center">
-        Backoffice multi-empresa con aislamiento de datos por <b>Row Level Security</b> en PostgreSQL,
-        onboarding self-service, presupuestos en PDF y panel de administración cross-tenant.
-        Multi-tenant desde el día uno: costaba más al inicio que una instancia por cliente,
-        pero un retrofit contra datos productivos hubiera sido mucho peor.
+        Clientes, presupuestos, proveedores y facturas para PyMEs, con alta self-service,
+        plan gratuito, roles y permisos por módulo, y branding propio por empresa.
+        <b>Multiempresa desde el día uno:</b> el aislamiento no depende de que la pantalla
+        filtre bien, está hecho con <b>Row Level Security</b> en PostgreSQL, que rechaza toda
+        lectura o escritura fuera de la empresa del usuario conectado. Costaba más al inicio
+        que una instancia por cliente, pero el retrofit contra datos productivos hubiera sido
+        mucho peor. En producción con su primer cliente.
       </p>
       <p align="center"><sub><b>Stack:</b> Next.js · TypeScript · Supabase · PostgreSQL · Spring Boot</sub></p>
     </td>
@@ -141,13 +144,13 @@ cliente, y automatizo atención al cliente sobre WhatsApp Cloud API con n8n y ag
       <h3 align="center">📊 Chartly</h3>
       <p align="center">
         <a href="https://desempleo-inky.vercel.app">
-          <img src="https://img.shields.io/badge/En%20producci%C3%B3n-requiere%20login-success?logo=vercel&logoColor=white" alt="live"/>
+          <img src="https://img.shields.io/badge/En%20producci%C3%B3n-Live-success?logo=vercel&logoColor=white" alt="live"/>
         </a>
         <a href="https://github.com/carlosaurelio94/chartly">
           <img src="https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white" alt="code"/>
         </a>
       </p>
-      <p>PWA de finanzas y agenda con <b>notificaciones push al minuto</b>: el scheduler vive dentro de Postgres con pg_cron + pg_net.</p>
+      <p>PWA de finanzas, jornada y agenda para trabajadores de apps de delivery: calcula el $/h real y la meta diaria. <b>Push al minuto</b> con el scheduler dentro de Postgres (pg_cron + pg_net).</p>
       <p><sub><b>Stack:</b> Next.js · TypeScript · Supabase · pg_cron</sub></p>
     </td>
   </tr>
