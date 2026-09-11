@@ -82,7 +82,7 @@ cliente, y automatizo atención al cliente sobre WhatsApp Cloud API con n8n y ag
       <h3 align="center">🌱 Backoffice Vivero Urbano — SaaS multi-tenant en producción</h3>
       <p align="center">
         <a href="https://boviverourbano.vercel.app">
-          <img src="https://img.shields.io/badge/En%20producci%C3%B3n-Live-success?logo=vercel&logoColor=white" alt="live"/>
+          <img src="https://img.shields.io/badge/En%20producci%C3%B3n-requiere%20login-success?logo=vercel&logoColor=white" alt="live"/>
         </a>
         <a href="https://github.com/carlosaurelio94/backoffice-vivero-urbano">
           <img src="https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white" alt="code"/>
@@ -140,10 +140,12 @@ cliente, y automatizo atención al cliente sobre WhatsApp Cloud API con n8n y ag
     <td width="50%" valign="top">
       <h3 align="center">📊 Chartly</h3>
       <p align="center">
+        <a href="https://desempleo-inky.vercel.app">
+          <img src="https://img.shields.io/badge/En%20producci%C3%B3n-requiere%20login-success?logo=vercel&logoColor=white" alt="live"/>
+        </a>
         <a href="https://github.com/carlosaurelio94/chartly">
           <img src="https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white" alt="code"/>
         </a>
-        <img src="https://img.shields.io/badge/PWA-5A0FC8?logo=pwa&logoColor=white" alt="pwa"/>
       </p>
       <p>PWA de finanzas y agenda con <b>notificaciones push al minuto</b>: el scheduler vive dentro de Postgres con pg_cron + pg_net.</p>
       <p><sub><b>Stack:</b> Next.js · TypeScript · Supabase · pg_cron</sub></p>
