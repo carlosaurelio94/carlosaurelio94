@@ -34,8 +34,8 @@ public class Carlos {
 For **3 years** I maintained and evolved the platform behind a private wine club's
 e-commerce and logistics operation: a **Grails monolith and ~15 Spring Boot
 microservices** on PostgreSQL, serving hundreds of active members. There I
-**cut response times on critical endpoints by around 35%** through caching,
-resolving N+1 queries and adding indexes.
+**substantially cut response times on critical endpoints** — the biggest win was
+resolving N+1 queries that fired one query per item, alongside caching and indexes.
 
 Today I build and sell a **multi-tenant SaaS running in production** with its first
 client, and I automate customer operations over the WhatsApp Cloud API with n8n
