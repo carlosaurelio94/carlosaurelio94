@@ -18,27 +18,28 @@
 
 ---
 
-## 🧑‍💻 Sobre mí
+## 🧑‍💻 About me
 
 ```java
 public class Carlos {
-    String  rol         = "Backend Engineer";
-    String  ubicacion   = "🇦🇷 Buenos Aires — UTC-3, solapa con horario de EE.UU.";
-    String  core        = "Java · Spring Boot · Spring Data JPA · PostgreSQL · Docker";
-    String  tambien     = "Next.js · TypeScript · Supabase · n8n";
-    String  aprendiendo = "Java 21 · Spring Boot 3 · Testcontainers · AWS";
-    String  buscando    = "💼 roles remotos, backend o full-stack";
+    String  role     = "Backend Engineer";
+    String  location = "🇦🇷 Buenos Aires — UTC-3, overlaps US business hours";
+    String  core     = "Java · Spring Boot · Spring Data JPA · PostgreSQL · Docker";
+    String  alsoDoes = "Next.js · Angular · TypeScript · Supabase · n8n";
+    String  learning = "Java 21 · Spring Boot 3 · Testcontainers · AWS";
+    String  seeking  = "💼 remote backend or full-stack roles";
 }
 ```
 
-Durante **3 años** mantuve y evolucioné la plataforma que soporta el e-commerce y la
-operación logística de un club privado de vinos: un **monolito Grails y ~15
-microservicios Spring Boot** sobre PostgreSQL, con cientos de socios activos. Ahí
-**reduje cerca de un 35% el tiempo de respuesta** de los endpoints críticos con
-caching, resolución de consultas N+1 e índices.
+For **3 years** I maintained and evolved the platform behind a private wine club's
+e-commerce and logistics operation: a **Grails monolith and ~15 Spring Boot
+microservices** on PostgreSQL, serving hundreds of active members. There I
+**cut response times on critical endpoints by around 35%** through caching,
+resolving N+1 queries and adding indexes.
 
-Hoy desarrollo y comercializo un **SaaS multi-tenant en producción** con su primer
-cliente, y automatizo atención al cliente sobre WhatsApp Cloud API con n8n y agentes LLM.
+Today I build and sell a **multi-tenant SaaS running in production** with its first
+client, and I automate customer operations over the WhatsApp Cloud API with n8n
+and LLM agents.
 
 ---
 
@@ -54,7 +55,7 @@ cliente, y automatizo atención al cliente sobre WhatsApp Cloud API con n8n y ag
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-**Frontend & producto**
+**Frontend & product**
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -62,7 +63,7 @@ cliente, y automatizo atención al cliente sobre WhatsApp Cloud API con n8n y ag
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
-**DevOps & automatización**
+**DevOps & automation**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
@@ -74,35 +75,35 @@ cliente, y automatizo atención al cliente sobre WhatsApp Cloud API con n8n y ag
 
 ---
 
-## 🚀 Proyectos destacados
+## 🚀 Featured projects
 
 <table>
   <tr>
     <td colspan="2" valign="top">
-      <h3 align="center">🌱 Bocha — SaaS multiempresa de gestión comercial</h3>
+      <h3 align="center">🌱 Bocha — multi-company commercial admin SaaS</h3>
       <p align="center">
         <a href="https://boviverourbano.vercel.app">
-          <img src="https://img.shields.io/badge/En%20producci%C3%B3n-Live-success?logo=vercel&logoColor=white" alt="live"/>
+          <img src="https://img.shields.io/badge/In%20production-Live-success?logo=vercel&logoColor=white" alt="live"/>
         </a>
         <a href="https://github.com/carlosaurelio94/backoffice-vivero-urbano">
           <img src="https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white" alt="code"/>
         </a>
       </p>
       <p align="center">
-        Clientes, presupuestos, proveedores y facturas para PyMEs, con alta self-service,
-        plan gratuito, roles y permisos por módulo, y branding propio por empresa.
-        <b>Multiempresa desde el día uno:</b> el aislamiento no depende de que la pantalla
-        filtre bien, está hecho con <b>Row Level Security</b> en PostgreSQL, que rechaza toda
-        lectura o escritura fuera de la empresa del usuario conectado. Costaba más al inicio
-        que una instancia por cliente, pero el retrofit contra datos productivos hubiera sido
-        mucho peor. En producción con su primer cliente.
+        Clients, quotes, suppliers and invoices for small businesses, with self-service
+        signup, a free tier, per-module roles and permissions, and per-company branding.
+        <b>Multi-company from day one:</b> isolation does not rely on the UI filtering
+        correctly — it is enforced by <b>Row Level Security</b> in PostgreSQL, which rejects
+        any read or write outside the connected user's company. Costlier upfront than one
+        instance per client, but retrofitting it against live production data would have
+        been far worse. Running in production with its first client.
       </p>
       <p align="center"><sub><b>Stack:</b> Next.js · TypeScript · Supabase · PostgreSQL · Spring Boot</sub></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🥃 Licoreria Virtual</h3>
+      <h3 align="center">🥃 Liquoría</h3>
       <p align="center">
         <a href="https://licoreria-virtual.vercel.app">
           <img src="https://img.shields.io/badge/Demo-Live-success?logo=vercel&logoColor=white" alt="live"/>
@@ -111,7 +112,7 @@ cliente, y automatizo atención al cliente sobre WhatsApp Cloud API con n8n y ag
           <img src="https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white" alt="code"/>
         </a>
       </p>
-      <p>Catálogo con bot recomendador IA, mapa interactivo de orígenes e i18n ES/EN.</p>
+      <p>Curated spirits catalog with an LLM recommender bot, an interactive origin map and ES/EN i18n.</p>
       <p><sub><b>Stack:</b> Next.js 16 · TypeScript · Tailwind</sub></p>
     </td>
     <td width="50%" valign="top">
@@ -122,7 +123,7 @@ cliente, y automatizo atención al cliente sobre WhatsApp Cloud API con n8n y ag
         </a>
         <img src="https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white" alt="java"/>
       </p>
-      <p>Home banking full-stack: autenticación JWT, transferencias, préstamos y persistencia con JPA.</p>
+      <p>Full-stack home banking API: Spring Security auth, transfers, cards, loans and PDF statements.</p>
       <p><sub><b>Stack:</b> Java · Spring Boot · JPA</sub></p>
     </td>
   </tr>
@@ -137,20 +138,20 @@ cliente, y automatizo atención al cliente sobre WhatsApp Cloud API con n8n y ag
           <img src="https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white" alt="code"/>
         </a>
       </p>
-      <p>Gestión de turnos y agenda para Vivero Urbano.</p>
-      <p><sub><b>Stack:</b> Next.js · TypeScript · Supabase</sub></p>
+      <p>Scheduling app for a real client, with WhatsApp alerts driven by a node-cron job.</p>
+      <p><sub><b>Stack:</b> Angular 17 · RxJS · Supabase · Express</sub></p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">📊 Chartly</h3>
       <p align="center">
         <a href="https://desempleo-inky.vercel.app">
-          <img src="https://img.shields.io/badge/En%20producci%C3%B3n-Live-success?logo=vercel&logoColor=white" alt="live"/>
+          <img src="https://img.shields.io/badge/In%20production-Live-success?logo=vercel&logoColor=white" alt="live"/>
         </a>
         <a href="https://github.com/carlosaurelio94/chartly">
           <img src="https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white" alt="code"/>
         </a>
       </p>
-      <p>PWA de finanzas, jornada y agenda para trabajadores de apps de delivery: calcula el $/h real y la meta diaria. <b>Push al minuto</b> con el scheduler dentro de Postgres (pg_cron + pg_net).</p>
+      <p>Finance, shift and scheduling PWA for gig delivery workers: computes real hourly earnings and the daily target. <b>Minute-resolution push</b>, with the scheduler living inside Postgres (pg_cron + pg_net).</p>
       <p><sub><b>Stack:</b> Next.js · TypeScript · Supabase · pg_cron</sub></p>
     </td>
   </tr>
@@ -197,7 +198,7 @@ cliente, y automatizo atención al cliente sobre WhatsApp Cloud API con n8n y ag
 
 ---
 
-## 📫 Contacto
+## 📫 Get in touch
 
 <div align="center">
 
@@ -213,13 +214,15 @@ cliente, y automatizo atención al cliente sobre WhatsApp Cloud API con n8n y ag
 
 <br/><br/>
 
-<b>Abierto a roles remotos como backend o full-stack.</b><br/>
-<sub>Buenos Aires, Argentina · UTC-3 · solapa con horario de EE.UU.</sub>
+<b>Open to remote backend and full-stack roles.</b><br/>
+<sub>Buenos Aires, Argentina · UTC-3 · overlaps US business hours</sub>
 
 <br/><br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:EC4899,50:8B5CF6,100:6366F1&height=100&section=footer&animation=fadeIn" width="100%" alt="footer"/>
 
-<sub>⭐ <i>Si algún proyecto te resulta útil, una estrella ayuda mucho.</i></sub>
+<sub>⭐ <i>If any of these are useful to you, a star goes a long way.</i></sub>
 
 </div>
+
+
