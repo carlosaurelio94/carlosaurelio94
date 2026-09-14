@@ -37,9 +37,9 @@ microservices** on PostgreSQL, serving hundreds of active members. There I
 **substantially cut response times on critical endpoints** through caching,
 resolving N+1 queries and adding indexes.
 
-Today I build and sell a **multi-tenant SaaS running in production** with its first
-client, and I automate customer operations over the WhatsApp Cloud API with n8n
-and LLM agents.
+Today I build a multi-tenant SaaS back-office of my own, deployed to production,
+and I built a working prototype of automated customer operations over the
+WhatsApp Cloud API with n8n.
 
 ---
 
@@ -96,7 +96,7 @@ and LLM agents.
         correctly — it is enforced by <b>Row Level Security</b> in PostgreSQL, which rejects
         any read or write outside the connected user's company. Costlier upfront than one
         instance per client, but retrofitting it against live production data would have
-        been far worse. Running in production with its first client.
+        been far worse. Deployed and running in production.
       </p>
       <p align="center"><sub><b>Stack:</b> Next.js · TypeScript · Supabase · PostgreSQL · Spring Boot</sub></p>
     </td>
@@ -138,7 +138,7 @@ and LLM agents.
           <img src="https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white" alt="code"/>
         </a>
       </p>
-      <p>Scheduling app for a real client, with WhatsApp alerts driven by a node-cron job.</p>
+      <p>Scheduling app with WhatsApp alerts driven by a node-cron job.</p>
       <p><sub><b>Stack:</b> Angular 17 · RxJS · Supabase · Express</sub></p>
     </td>
     <td width="50%" valign="top">
